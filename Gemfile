@@ -21,8 +21,10 @@ gem 'jquery-rails', '4.3.1'
 gem 'turbolinks', '5.0.1'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '2.7.0'
-
-
+gem 'minitest', group: :test
+gem 'minitest-reporters', group: :test
+gem 'bootstrap-sass', '3.3.6'
+gem 'rails-controller-testing', '1.0.2'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', '9.0.6', platform: :mri
